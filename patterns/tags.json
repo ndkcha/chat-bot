@@ -1,0 +1,25 @@
+{
+    "greeting": {
+        "patterns": ["Hi", "Hi there", "Hello", "Hello again", "Is anyone here?", "Knock Knock", "Hey", "Hey there"],
+        "response": ["Hello", "Hey", "Hi", "Hi. It's nice to see you"]
+    },
+    "thankyou": {
+        "patterns": ["Thank you", "Thanks", "That's so helpful", "You saved my time", "You are so kind!"],
+        "response": ["Anytime, at your service! :)", "My pleasure!", "I'm always happy to help!"]
+    },
+    "bye": {
+        "patterns": ["Bye", "See you later", "Goodbye", "Have a nice day"],
+        "response": ["See you later, thank you for your time", "Have a lovely day", "Bye!", "Anything you need. You know who to talk to. Bye!"],
+        "exit": true
+    },
+    "abilities": {
+        "patterns": ["What can you do?", "I don't know where to start", "How to talk to you?", "Talk to me", "How do we get started?"],
+        "response": ["Let's start with something you recently bought. Type, I bought <item you bought>", "It's simple. Let's talk about what did you shop. Type, I bought <item you bought>"],
+        "context_flush": true
+    },
+    "flush": {
+        "patterns": ["I made a mistake. Can we do this again?", "I made a mistake", "I don't want to add this", "I forgot something", "I forgot to add that"],
+        "response": ["Mistakes happen. Let's do this again. We'll have to start with fresh. Go for, I bought <item you bought>", "It's alright. We all make mistakes. Shall we start again? Start with, I bought <item you bought>", "I understand. It's not a big deal. Let's do this again. Begin with, I bought <item you bought>"],
+        "context_flush": true
+    }
+}
