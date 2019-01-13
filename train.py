@@ -84,6 +84,6 @@ net = tflearn.regression(net)
 # define model
 model = tflearn.DNN(net, tensorboard_dir='model/tflearn_logs')
 model.fit(training_features, training_classes, n_epoch=1000, batch_size=16, show_metric=True)
-model.save("model/jason.zdmodel")
+model.save("model/shareen.zdmodel")
 
-pickle.dump({'words':words, 'classes':classes, 'training_features':training_features, 'training_classes':training_classes}, open("model/jason.zdwords", "wb"))
+pickle.dump({'words':words, 'classes':classes, 'training_features':training_features, 'training_classes':training_classes}, open("model/shareen.zdwords", "wb"))

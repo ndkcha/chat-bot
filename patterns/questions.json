@@ -1,0 +1,9 @@
+{
+    "greeting": ["Today's lunch was a bit heavy"],
+    "new-food": ["May I recommend some healthy food options?"],
+    "stats": ["You have walked 12,573 times today. You did something today. You've won today's challenge"],
+    "dinner": ["What are you having for dinner tonight?"],
+    "fact": ["Fuck you!"],
+    "photo-response-positive": ["That's healthy"],
+    "photo-response-negative": ["Maybe you should try just the salad"]
+}
